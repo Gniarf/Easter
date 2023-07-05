@@ -29,4 +29,22 @@ public class TestComputer
     {
         Assert.Equal(new DateTime(year, month, day), Computer.ComputeEaster(year));
     }
+
+    [Theory]
+    [InlineData(2022, 05, 26)]
+    [InlineData(2023, 05, 18)]
+    [InlineData(2024, 05, 09)]
+    public void TestComputeAscension(int year, int month, int day)
+    {
+        Assert.Equal(new DateTime(year, month, day), Computer.ComputeAscension(year));
+    }
+
+    [Theory]
+    [InlineData(2023, 05, 29)]
+    [InlineData(2024, 05, 20)]
+    [InlineData(2025, 06, 09)]
+    public void TestComputePentecote(int year, int month, int day)
+    {
+        Assert.Equal(new DateTime(year, month, day), Computer.ComputePentecote(year));
+    }
 }  

@@ -54,6 +54,16 @@ public class Computer
         return new DateTime(year, quotient10, reste10 + 1);
     }
 
+    public static DateTime ComputePentecote(int year)
+    {
+        return ComputeEaster(year).AddDays(50);
+    }
+
+    public static DateTime ComputeAscension(int year)
+    {
+        return ComputeEaster(year).AddDays(39);
+    }
+
     private static void Divise(int a, int b, out int quotient, out int reste)
     {
         quotient = a / b;
