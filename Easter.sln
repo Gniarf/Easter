@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasterApi", "EasterApi\EasterApi.csproj", "{27F23CB5-73EF-4A0B-9DD6-7B9ECD58289A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasterTestApp", "EasterTestApp\EasterTestApp.csproj", "{42B24088-F876-4654-8E5C-708EC5FE2CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easter.Tests", "Easter.Tests\Easter.Tests.csproj", "{57D06C31-A97C-4F08-B789-0C3A81D5783C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F23CB5-73EF-4A0B-9DD6-7B9ECD58289A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F23CB5-73EF-4A0B-9DD6-7B9ECD58289A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F23CB5-73EF-4A0B-9DD6-7B9ECD58289A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F23CB5-73EF-4A0B-9DD6-7B9ECD58289A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B24088-F876-4654-8E5C-708EC5FE2CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B24088-F876-4654-8E5C-708EC5FE2CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B24088-F876-4654-8E5C-708EC5FE2CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B24088-F876-4654-8E5C-708EC5FE2CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D06C31-A97C-4F08-B789-0C3A81D5783C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D06C31-A97C-4F08-B789-0C3A81D5783C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D06C31-A97C-4F08-B789-0C3A81D5783C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D06C31-A97C-4F08-B789-0C3A81D5783C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
